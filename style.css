@@ -1,0 +1,106 @@
+:root{
+    --branco_background: #FFFFFF;
+    --vinho_botao: #8E2424;
+    --cinza_texto: #667085;
+    --preto_nome: #3A404E;
+    --fonte_principal: 'inter';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1308px;
+    height: 44px;
+    padding: 0px 32px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.menu__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    height: 26.99px;
+    margin: 8.5px 263.5px 8.5px 32px;
+}
+.logo_img{
+    position: static;
+    margin-right: 8px;
+}
+.logo_nome{
+    position: static;
+    font-family: var(--fonte_principal);
+    color: var(--preto_nome);
+    width: 113px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;    
+}
+.menu__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 362px;
+    height: 32px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 263.5px;
+}
+.link_item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-decoration: none;
+    font-family: var(--fonte_principal);
+    color: var(--cinza_texto);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    padding: 4px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.menu__botao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 207px;
+    height: 44px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 32px;
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    text-decoration: none;
+    font-family: var(--fonte_principal);
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 16px;  
+    font-weight: 500;
+    line-height: 24px;
+}
+.botao_entrar{
+    color: var(--cinza_texto);
+    margin-right: 12px;
+}
+.botao_cadastro{
+    background-color: var(--vinho_botao);
+    color: var(--branco_background);
+}
