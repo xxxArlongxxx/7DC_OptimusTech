@@ -21,6 +21,8 @@
     height: 44px;
     padding: 0px 32px;
     margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .menu__logo{
     display: flex;
