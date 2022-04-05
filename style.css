@@ -1,16 +1,23 @@
+/*GERAL*/
 :root{
     --branco_background: #FFFFFF;
     --vinho_botao: #8E2424;
     --cinza_texto: #667085;
     --preto_nome: #3A404E;
+    --preto_header: #101828;
     --fonte_principal: 'inter';
+}
+body {
+    max-width: 100%;
+    height: 100vh;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-  }
+}
+/*DIA 1*/  
 .menu{
     display: flex;
     flex-direction: row;
@@ -30,7 +37,9 @@
     align-items: center;
     position: static;
     height: 26.99px;
-    margin: 8.5px 263.5px 8.5px 32px;
+    margin-top: 8.5px;  
+    margin-right:263.5px;
+    margin-bottom: 8.5px;
 }
 .logo_img{
     position: static;
@@ -64,8 +73,9 @@
     font-family: var(--fonte_principal);
     color: var(--cinza_texto);
     margin-top: 4px;
+    margin-right: 5px;
     margin-bottom: 4px;
-    margin-left: 14px;
+    margin-left: 5px;
     padding: 4px 0px;
     font-size: 16px;
     font-weight: 500;
@@ -103,4 +113,48 @@
 .botao_cadastro{
     background-color: var(--vinho_botao);
     color: var(--branco_background);
+}
+/*DIA 2*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1308x;
+    height: 407px;
+    padding: 96px 0px;
+}
+.header__sobre{
+    position: static;
+    font-family: var(--fonte_principal);
+    color: var(--vinho_botao);
+    width: 78px;
+    height: 24px;
+    margin: 96px 618px 5px 618px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.header__titulo{
+    position: static;
+    font-family: var(--fonte_principal);
+    color: var(--preto_header);
+    height: 60px;
+    margin: 5px  426px 5px 426px;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.header__objetivo{
+    position: static;
+    text-align: center;
+    font-family: var(--fonte_principal);
+    color: var(--cinza_texto);
+    width: 791px;
+    height: 60px;
+    margin: 12px 324px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
