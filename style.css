@@ -144,3 +144,15 @@ header{
     font-weight: 600;
     line-height: 60px;
 }
+.header__objetivo{
+    position: static;
+    text-align: center;
+    font-family: var(--fonte_principal);
+    color: var(--cinza_texto);
+    width: 791px;
+    height: 60px;
+    margin: 12px 324px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
