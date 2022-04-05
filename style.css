@@ -107,3 +107,13 @@
     background-color: var(--vinho_botao);
     color: var(--branco_background);
 }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1308x;
+    height: 407px;
+    padding: 96px 0px;
+}
